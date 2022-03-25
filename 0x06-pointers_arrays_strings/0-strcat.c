@@ -1,5 +1,10 @@
-#include <stdio.h>
-#include "main.h"
+#include "main.h" 
+/**
+ * _strcat connecatination two strings
+ * @dest:Apointer to a character that will be change
+ * @src A pointer to a character that will also be changed
+ * Return:dest
+ */
 char *_strcat(char *dest, char *src);
 {
 int i,j;
